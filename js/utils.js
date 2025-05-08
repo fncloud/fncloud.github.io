@@ -1106,7 +1106,7 @@ const anzhiyu = {
   // 跳转开往
   totraveling: function () {
     anzhiyu.snackbarShow(
-      "即将跳转到「开往」项目的成员博客，不保证跳转网站的安全性和可用性",
+      "即将跳转到「开往」蜂鸟云VPN订阅平台",
       element => {
         element.style.opacity = 0;
         travellingsTimer && clearTimeout(travellingsTimer);
@@ -1115,7 +1115,7 @@ const anzhiyu = {
       "取消"
     );
     travellingsTimer = setTimeout(function () {
-      window.open("https://www.travellings.cn/go.html", "_blank");
+      window.open("https://fnuser.fntao5.cn", "_blank");
     }, "5000");
   },
 

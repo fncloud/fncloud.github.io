@@ -1,4 +1,4 @@
-var posts=["fncloud/科学上网后有哪些乐趣/","fncloud/美区下载ID/"];function toRandomPost(){
+var posts=["fncloud/科学上网后有哪些乐趣/","fncloud/美区下载ID/","fncloud/Ios&iPad加速器安装/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };var friend_link_list=[];
     var refreshNum = 1;
